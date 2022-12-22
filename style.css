@@ -1,0 +1,11 @@
+.row {
+    margin: 20px;
+  background-color: red;
+  display: flex;
+  }
+
+.col {
+    margin: 20px;
+    background-color: blue;
+    display: flex;
+  }
