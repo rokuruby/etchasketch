@@ -11,4 +11,10 @@
     display: flex;
     flex: 1;
     min-height: auto;
+    transition: background-color 30s, opacity 1s;
+  }
+
+  .col:hover {
+    background-color: red;
+    transition: background-color 0.1s, opacity 0.5s;
   }
