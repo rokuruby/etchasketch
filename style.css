@@ -1,11 +1,14 @@
 .row {
-    margin: 20px;
+    margin: 0px;
   background-color: red;
   display: flex;
   }
 
 .col {
-    margin: 20px;
+    margin: 1px;
+    padding: 20px;
     background-color: blue;
     display: flex;
+    flex: 1;
+    min-height: auto;
   }
