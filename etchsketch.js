@@ -2,6 +2,8 @@ console.log('test JS link!');
 
 //create a function to wrap the grid generator to be called by a button
 function generateGrid() {
+//clear the previous generated grid
+
  //create a const to hold user prompt
  var number;
  //create a popup prompt to ask user how many squares with an if statement to check if input is less than 101, more than 0 and not a number. If over 100 or less than 0 or not a number, then prompt user to enter a correct number or Quit.
@@ -33,6 +35,15 @@ for (let i = 0; i < number; i++) { // outer loop to create the rows
     
     container.appendChild(row); // append the row to the container
   }
+
+}
+function blacked () {
+const body = document.querySelector('div');
+var row = document.getElementsByClassName("col");
+var red = Math.floor(Math.random() * 256);
+var green = Math.floor(Math.random() * 256);
+var blue = Math.floor(Math.random() * 256);
+var color = 'rgb(' + red + ',' + green + ',' + blue + ')';
+row[0].style.backgroundColor = color;
 }
 
-// use CSS to style the div classes of row and col
